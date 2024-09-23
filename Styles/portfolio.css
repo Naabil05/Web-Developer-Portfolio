@@ -132,6 +132,10 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* About Section Styles */
 
 .about {
@@ -139,7 +143,6 @@ main {
     border-radius: 10px;
     background: #FFF8F3;
     margin-top: 130px;
-    margin-bottom: 130px;
 }
 
 .about-info-container {
@@ -197,4 +200,51 @@ main {
     font-weight: 400;
     line-height: 28px;
 
+}
+
+/* Resume Style */
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-item {
+    margin-right: 70px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+hr {
+    background-color: #D1D1D1;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
 }
